@@ -1,0 +1,13 @@
+prefix=/Users/abhishekdas/Documents/crewAI/venv
+exec_prefix=/Users/abhishekdas/Documents/crewAI/venv
+libdir=/Users/abhishekdas/Documents/crewAI/venv/lib
+sharedlibdir=/Users/abhishekdas/Documents/crewAI/venv/lib
+includedir=/Users/abhishekdas/Documents/crewAI/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
